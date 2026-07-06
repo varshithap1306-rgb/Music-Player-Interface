@@ -1,0 +1,1 @@
+console.log("Artists Loaded Successfully");

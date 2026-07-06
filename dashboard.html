@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Music Dashboard</title>
+
+    <link rel="stylesheet" href="css/dashboard.css">
+
+    <link rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+<div class="dashboard">
+
+    <!-- Sidebar -->
+
+    <aside class="sidebar">
+
+        <h2>
+            <i class="fa-solid fa-music"></i>
+            Music Player
+        </h2>
+
+        <ul>
+
+<li class="active">
+<a href="dashboard.html">
+<i class="fa-solid fa-house"></i> Dashboard
+</a>
+</li>
+
+<li>
+<a href="library.html">
+<i class="fa-solid fa-headphones"></i> Library
+</a>
+</li>
+
+<li>
+<a href="playlists.html">
+<i class="fa-solid fa-list"></i> Playlists
+</a>
+</li>
+
+<li>
+<a href="favorites.html">
+<i class="fa-solid fa-heart"></i> Favorites
+</a>
+</li>
+
+<li>
+<a href="nowplaying.html">
+<i class="fa-solid fa-play"></i> Now Playing
+</a>
+</li>
+
+<li>
+<a href="albums.html">
+<i class="fa-solid fa-compact-disc"></i> Albums
+</a>
+</li>
+
+<li>
+<a href="artists.html">
+<i class="fa-solid fa-user"></i> Artists
+</a>
+</li>
+
+<li>
+<a href="analytics.html">
+<i class="fa-solid fa-chart-column"></i> Analytics
+</a>
+</li>
+
+<li>
+<a href="settings.html">
+<i class="fa-solid fa-gear"></i> Settings
+</a>
+</li>
+
+<li id="logoutBtn">
+<i class="fa-solid fa-right-from-bracket"></i> Logout
+</li>
+
+</ul>
+
+    </aside>
+
+    <!-- Main -->
+
+    <main class="content">
+
+        <!-- Navbar -->
+
+        <header class="navbar">
+
+            <h2>Dashboard</h2>
+
+            <div class="profile">
+
+                <i class="fa-solid fa-bell"></i>
+
+                <img src="images/profile.jpg" alt="Profile">
+
+            </div>
+
+        </header>
+
+        <!-- Cards -->
+
+        <section class="cards">
+
+            <div class="card">
+
+                <i class="fa-solid fa-music"></i>
+
+                <h3>Total Songs</h3>
+
+                <h1>350</h1>
+
+            </div>
+
+            <div class="card">
+
+                <i class="fa-solid fa-compact-disc"></i>
+
+                <h3>Albums</h3>
+
+                <h1>48</h1>
+
+            </div>
+
+            <div class="card">
+
+                <i class="fa-solid fa-user"></i>
+
+                <h3>Artists</h3>
+
+                <h1>82</h1>
+
+            </div>
+
+            <div class="card">
+
+                <i class="fa-solid fa-heart"></i>
+
+                <h3>Favorites</h3>
+
+                <h1>96</h1>
+
+            </div>
+
+        </section>
+
+        <!-- Recently Played -->
+
+        <section class="table-section">
+
+            <h2>Recently Played</h2>
+
+            <table>
+
+                <tr>
+
+                    <th>Song</th>
+
+                    <th>Artist</th>
+
+                    <th>Album</th>
+
+                    <th>Duration</th>
+
+                </tr>
+
+                <tr>
+
+                    <td>Blinding Lights</td>
+
+                    <td>The Weeknd</td>
+
+                    <td>After Hours</td>
+
+                    <td>3:20</td>
+
+                </tr>
+
+                <tr>
+
+                    <td>Shape of You</td>
+
+                    <td>Ed Sheeran</td>
+
+                    <td>Divide</td>
+
+                    <td>4:12</td>
+
+                </tr>
+
+                <tr>
+
+                    <td>Believer</td>
+
+                    <td>Imagine Dragons</td>
+
+                    <td>Evolve</td>
+
+                    <td>3:24</td>
+
+                </tr>
+
+                <tr>
+
+                    <td>Perfect</td>
+
+                    <td>Ed Sheeran</td>
+
+                    <td>Divide</td>
+
+                    <td>4:35</td>
+
+                </tr>
+
+            </table>
+
+        </section>
+
+        <!-- Popular Artists -->
+
+        <section class="artists">
+
+            <h2>Popular Artists</h2>
+
+            <div class="artist-grid">
+
+                <div class="artist-card">
+
+                    <img src="images/artist1.jpg">
+
+                    <h3>Ed Sheeran</h3>
+
+                </div>
+
+                <div class="artist-card">
+
+                    <img src="images/artist2.jpg">
+
+                    <h3>The Weeknd</h3>
+
+                </div>
+
+            </div>
+
+        </section>
+
+    </main>
+
+</div>
+
+<script src="js/dashboard.js"></script>
+
+</body>
+</html>

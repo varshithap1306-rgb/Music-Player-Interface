@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Playlists</title>
+
+<link rel="stylesheet" href="css/playlists.css">
+
+<link rel="stylesheet"
+href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+<div class="container">
+
+<header>
+
+<h1>
+<i class="fa-solid fa-list"></i>
+My Playlists
+</h1>
+
+<div class="top-bar">
+
+<input
+type="text"
+id="searchPlaylist"
+placeholder="Search Playlist...">
+
+<button id="addPlaylistBtn">
+<i class="fa-solid fa-plus"></i>
+New Playlist
+</button>
+
+</div>
+
+</header>
+
+<div class="playlist-grid" id="playlistGrid">
+
+</div>
+
+</div>
+
+<!-- Modal -->
+
+<div class="modal" id="playlistModal">
+
+<div class="modal-content">
+
+<span class="close">&times;</span>
+
+<h2>Create Playlist</h2>
+
+<form id="playlistForm">
+
+<input
+type="text"
+id="playlistName"
+placeholder="Playlist Name"
+required>
+
+<button type="submit">
+Save Playlist
+</button>
+
+</form>
+
+</div>
+
+</div>
+
+<script src="js/playlists.js"></script>
+
+</body>
+</html>
